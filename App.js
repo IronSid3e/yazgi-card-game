@@ -91,7 +91,7 @@ export default function App() {
           }}
           onPress={() => handleChoice("left")}
         >
-          <Text>{CARDS[cardIndex].left.text} </Text>
+          <Text style= {{textAlign: 'center'}}>{CARDS[cardIndex].left.text} </Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{
